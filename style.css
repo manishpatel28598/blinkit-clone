@@ -109,7 +109,42 @@ td{
 .my-List{
     white-space: nowrap;
 }
-.my-List>img{
-    display: inline-block;
-
+.my-card{
+    display: inline-block !important;
+}
+.card{
+    width:200px;
+    padding:2px;
+}
+.time{
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    width:fit-content;
+    font-size: 10px;
+    padding: 0px 5px;
+    font-weight: 900;
+}
+h5{
+    font-weight: 15px;
+    font-weight: 900;
+    white-space: wrap;
+}
+.p-weight{
+    color: #828282;
+    font-size: 200;
+    font-size: 12px;
+}
+.p-price{
+    font-weight: 200;
+}
+.category-section{
+    width: 85vw;
+    margin:auto;
+}
+.card{
+    display:inline-block;
+}
+.card>img{
+    width: 90%;
+    margin:auto;
 }
