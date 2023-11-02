@@ -7,9 +7,17 @@
 .vertical-line{
     height: 65px;
 }
+#hero-section{
+    margin-top: 5%;
+   
+}
 nav{
-    position: sticky;
-    padding: 0px;
+    margin-top: -5%;
+   width: 100%;
+   z-index: 1;
+   background: #fff;
+   
+  
 }
 .nav-search{
     background-color: #F8F8F8;
