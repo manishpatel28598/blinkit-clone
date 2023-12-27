@@ -4,6 +4,14 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+img:hover{
+transition: all 1ms ease-in-out;
+transform: scale(1.1);
+overflow: hidden;
+}
+td{
+    cursor: pointer;
+}
 .vertical-line{
     height: 65px;
 }
@@ -116,13 +124,16 @@ td{
 }
 .my-List{
     white-space: nowrap;
+    
 }
 .my-card{
     display: inline-block !important;
+   
 }
 .card{
     width:200px;
     padding:2px;
+    overflow: hidden;
 }
 .time{
     border-radius: 5px;
